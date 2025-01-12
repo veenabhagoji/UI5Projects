@@ -1,0 +1,45 @@
+<mvc:View controllerName="crudoperations.controller.Author"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:u="sap.ui.unified"
+    xmlns:t="sap.ui.table"
+    xmlns="sap.m">
+
+    <Page id="page2" title="{i18n>title}">
+        <content>
+            <t:Table
+                id="authorTable"
+                selectionMode="MultiToggle"
+                paste="onPaste"
+                ariaLabelledBy="title"
+                rows="{/Authors}">
+                <t:extension>
+                    <OverflowToolbar>
+                        <Title id="title" text="Author Details" />
+                    </OverflowToolbar>
+                </t:extension>
+                <t:columns>
+                
+					<t:Column>
+						<Label text="ID" />
+						<t:template>
+							<Input value="{ID}"/>
+						</t:template>
+                        </t:Column>
+                    <t:Column>
+                        <Label text="Name" />
+                        <t:template>
+                            <Text text="{name}" />
+                        </t:template>
+                    </t:Column>
+                    <t:Column>
+                        <Label text="No of Books" />
+                        <t:template>
+                            <Text text="{NoofBook}" />
+                        </t:template>
+                    </t:Column>
+                </t:columns>
+            </t:Table>
+        </content>
+    </Page>
+</mvc:View>

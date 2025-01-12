@@ -1,0 +1,71 @@
+<mvc:View controllerName="crudoperations.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+	
+    <Page id="page" title="{i18n>title}">
+	<Table id="idBooksTable" items="{/Books}">
+
+    <headerToolbar>
+			<OverflowToolbar>
+				<content>
+					<Title text="Book Details" level="H2"/>
+                    </content>
+					<ToolbarSpacer />
+					<Button text="Read" press="onReadAll" />
+					<Button text="Filter" press="onReadFilters" />
+					<Button text="Create" press="onCreate" />
+					<Button text="Update" press="onUpdate" />
+					<Button text="Delete" />
+					<Button text="Author" press="onAuthorButtonPress" />
+                    </OverflowToolbar>
+                    
+                    </headerToolbar>
+    	<columns>
+			<Column
+				width="12em">
+				<Text text="ID" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="Title" />
+			</Column>
+			<Column
+				minScreenWidth="Desktop"
+				demandPopin="true">
+				
+				<Text text="Description" />
+			</Column>
+			
+			<Column>
+			
+				<Text text="Author_ID" />
+
+			</Column>
+            <Column>
+			
+				<Text text="Author_Name" />
+                </Column>
+		</columns>
+		<items>
+			<ColumnListItem vAlign="Middle">
+				<cells>
+					
+						<Text
+						text="{ID}"/>
+					<Text
+						text="{title}" />
+					<Text
+						text="{descr}" />
+                        <Text
+						text="{author_ID}" />
+                        <Text
+						text="{authorname}" />
+                       
+					
+				</cells>
+			</ColumnListItem>
+		</items>
+    </Table>
+    </Page>
+</mvc:View>

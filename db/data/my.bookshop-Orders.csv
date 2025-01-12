@@ -1,0 +1,11 @@
+ID,customer_ID,orderDate,totalAmount,status
+a3fae3c8-5f92-4b9d-a6ec-d2e9a5c8f0c3,1dfae1c6-4f91-4a9b-a6ec-d2e9a5c6f0c1,2023-10-01T10:00:00,150.00,Completed
+b4fae4c9-6f93-4c9e-a6ec-d2e9a5c9f0c4,2bfae2c7-4f91-4b9c-a6ec-d2e9a5c7f0c2,2023-10-15T14:30:00,200.00,Pending
+c5fae5d0-7f94-4d9f-a7ec-d2e9a5d0f0c5,1dfae1c6-4f91-4a9b-a6ec-d2e9a5c6f0c1,2023-10-20T11:15:00,250.00,Completed
+d6fae6d1-8f95-4e9e-a8ec-d2e9a5d1f0c6,2bfae2c7-4f91-4b9c-a6ec-d2e9a5c7f0c2,2023-10-25T09:00:00,180.00,Pending
+e7fae7d2-9f96-4f9d-a9ec-d2e9a5d2f0c7,1dfae1c6-4f91-4a9b-a6ec-d2e9a5c6f0c1,2023-11-01T13:45:00,300.00,Shipped
+f8fae8d3-af97-4f9e-aaec-d2e9a5d3f0c8,2bfae2c7-4f91-4b9c-a6ec-d2e9a5c7f0c2,2023-11-05T16:20:00,210.00,Cancelled
+g9fae9d4-bf98-4a9e-abec-d2e9a5d4f0c9,1dfae1c6-4f91-4a9b-a6ec-d2e9a5c6f0c1,2023-11-10T08:30:00,190.00,Completed
+h0fae0d5-cf99-4b9e-acfc-d2e9a5d5f0d0,2bfae2c7-4f91-4b9c-a6ec-d2e9a5c7f0c2,2023-11-15T12:00:00,220.00,Pending
+i1fae1d6-df90-4c9f-adfc-d2e9a5d6f0d1,1dfae1c6-4f91-4a9b-a6ec-d2e9a5c6f0c1,2023-11-20T17:10:00,280.00,Shipped
+j2fae2d7-ef91-4d9f-aefc-d2e9a5d7f0d2,2bfae2c7-4f91-4b9c-a6ec-d2e9a5c7f0c2,2023-11-25T14:40:00,175.00,Completed

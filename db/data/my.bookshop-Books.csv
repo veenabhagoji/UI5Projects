@@ -1,0 +1,14 @@
+ID,title,descr,author_ID,genre_ID,stock,price,currency_code,icon1,Rating
+a9b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,Wuthering Heights,Long subtitle that wraps book description,a1b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,3,12,34,USD,sap-icon://course-program,4.5
+b9c3d4e5-f6g7-4h8i-9j10-k11l12m13n14,Wuthering Heights Vol. 2,Another subtitle for Emily's book,a1b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,3,10,30,USD,sap-icon://course-program,4.2
+c9d4e5f6-g7h8-4i9j-10k1-l12m13n14o15,Wuthering Heights Vol. 3,Another subtitle for Emily's book,a1b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,3,8,32,USD,sap-icon://course-program,4.1
+d9e5f6g7-h8i9-4j10-k1l2-m13n14o15p16,Wuthering Heights Vol. 4,Another subtitle for Emily's book,a1b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,3,15,28,USD,sap-icon://course-program,4.3
+e9f6g7h8-i9j1-4k2l-m3n4-o15p16q17r18,Wuthering Heights Vol. 5,Another subtitle for Emily's book,a1b2c3d4-e5f6-4g7h-8i9j-k10l11m12n13,3,9,26,USD,sap-icon://course-program,4.4
+f9g7h8i9-j10k-4l2m-n3o4-p16q17r18s19,Jane Eyre,Long subtitle that wraps book description,b2c3d4e5-f6g7-4h8i-9j10-k11l12m13n14,4,11,36,USD,sap-icon://address-book,4.7
+g9h8i9j1-k2l3-4m4n-o5p6-q17r18s19t20,Jane Eyre Vol. 2,Another subtitle for Charlotte's book,b2c3d4e5-f6g7-4h8i-9j10-k11l12m13n14,4,14,31,USD,sap-icon://address-book,4.6
+h9i9j10-k1l2-4m3n-o4p5-q16r17s18t19,Jane Eyre Vol. 3,Another subtitle for Charlotte's book,b2c3d4e5-f6g7-4h8i-9j10-k11l12m13n14,4,12,35,USD,sap-icon://address-book,4.8
+i9j10k1-l2m3-4n4o-p5q6-r18s19t20u21,The Raven,Long subtitle that wraps book description,c3d4e5f6-g7h8-4i9j-10k1-l12m13n14o15,6,333,65,USD,sap-icon://course-book,4.9
+j9k1l2-m3n4-4o5p-q6r7-s19t20u21v22,Eleonora,Long subtitle that wraps book description,c3d4e5f6-g7h8-4i9j-10k1-l12m13n14o15,6,555,23,USD,sap-icon://course-program,4.5
+k9l2m3-n4o5-4p6q-r7s8-t20u21v22w23,Annabel Lee,Long subtitle that wraps book description,c3d4e5f6-g7h8-4i9j-10k1-l12m13n14o15,5,200,40,USD,sap-icon://course-program,4.4
+l9m3n4-o5p6-4q7r-s8t9-u21v22w23x24,Catweazle,Long subtitle that wraps book description,d4e5f6g7-h8i9-4j10-k1l2-m13n14o15p16,10,22,78,USD,sap-icon://course-program,4.6
+m9n4o5-p6q7-4r8s-t9u1-v22w23x24y25,Catweazle Vol. 2,Another subtitle for Richard's book,d4e5f6g7-h8i9-4j10-k1l2-m13n14o15p16,10,20,75,USD,sap-icon://course-program,4.7
