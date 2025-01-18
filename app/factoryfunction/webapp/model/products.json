@@ -1,0 +1,157 @@
+{
+    "Products":[
+    {
+      "Product": "10\" Portable DVD player",
+      "ProductId": "HT-2001",
+      "SupplierName":"Titanium",
+      "Dimensions": "24 x 19.5 x 29 cm",
+      "Weight": "0.84 KG",
+      "Price": "449.99 EUR"
+    },
+    {
+      "Product": "7\" Widescreen Portable DVD Player w MP3",
+      "ProductId": "HT-2000",
+      "SupplierName":"Titanium",
+      "Dimensions": "21.4 x 19 x 27.6 cm",
+      "Weight": "0.79 KG",
+      "Price": "249.99 EUR"
+    },
+    {
+      "Product": "Astro Laptop 1516",
+      "ProductId": "HT-1251",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "30 x 18 x 3 cm",
+      "Weight": "4.2 KG",
+      "Price": "989.00 EUR"
+    },
+    {
+      "Product": "Astro Phone 6",
+      "ProductId": "HT-1252",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "8 x 6 x 1.5 cm",
+      "Weight": "0.75 KG",
+      "Price": "649.00 EUR"
+    },
+    {
+      "Product": "Audio/Video Cable Kit - 4m",
+      "ProductId": "HT-2026",
+      "SupplierName":"Titanium",
+      "Dimensions": "21 x 10.2 x 13 cm",
+      "Weight": "0.2 KG",
+      "Price": "29.99 EUR"
+    },
+    {
+      "Product": "Beam Breaker B-1",
+      "ProductId": "HT-6100",
+      "SupplierName":"Titanium",
+      "Dimensions": "30.4 x 23.1 x 23 cm",
+      "Weight": "1.7 KG",
+      "Price": "469.00 EUR"
+    },
+    {
+      "Product": "Beam Breaker B-2",
+      "ProductId": "HT-6101",
+      "SupplierName":"Technocom",
+      "Dimensions": "30.4 x 23.1 x 23 cm",
+      "Weight": "2 KG",
+      "Price": "679.00 EUR"
+    },
+    {
+      "Product": "Beam Breaker B-3",
+      "ProductId": "HT-6102",
+      "SupplierName":"Technocom",
+      "Dimensions": "30.4 x 23.1 x 23 cm",
+      "Weight": "2.5 KG",
+      "Price": "889.00 EUR"
+    },
+    {
+      "Product": "Benda Laptop 1408",
+      "ProductId": "HT-1253",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "30 x 18 x 3 cm",
+      "Weight": "4.2 KG",
+      "Price": "976.00 EUR"
+    },
+    {
+      "Product": "Bending Screen 21HD",
+      "ProductId": "HT-1254",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "37 x 12 x 36 cm",
+      "Weight": "15 KG",
+      "Price": "250.00 EUR"
+    },
+    {
+      "Product": "Blaster Extreme",
+      "ProductId": "HT-1091",
+      "SupplierName":"Speaker Experts",
+      "Dimensions": "13 x 11 x 17.5 cm",
+      "Weight": "1.4 KG",
+      "Price": "26.00 EUR"
+    },
+    {
+      "Product": "Broad Screen 22HD",
+      "ProductId": "HT-1255",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "39 x 12 x 38 cm",
+      "Weight": "16 KG",
+      "Price": "270.00 EUR"
+    },
+    {
+      "Product": "Camcorder View",
+      "ProductId": "HT-9994",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "48 x 31 x 27 cm",
+      "Weight": "3.8 KG",
+      "Price": "1,388.00 EUR"
+    },
+    {
+      "Product": "CD/DVD case: 264 sleeves",
+      "ProductId": "HT-2025",
+      "SupplierName":"Titanium",
+      "Dimensions": "13 x 13 x 20 cm",
+      "Weight": "0.65 KG",
+      "Price": "44.99 EUR"
+    },
+    {
+      "Product": "Cepat Tablet 10.5",
+      "ProductId": "HT-1257",
+      "SupplierName":"Ultrasonic United",
+      "Dimensions": "48 x 31 x 4.5 cm",
+      "Weight": "2.8 KG",
+      "Price": "549.00 EUR"
+    },
+    {
+      "Product": "Cepat Tablet 8",
+      "ProductId": "HT-1258",
+      "SupplierName":"Technocom",
+      "Dimensions": "38 x 21 x 3.5 cm",
+      "Weight": "2.5 KG",
+      "Price": "529.00 EUR"
+    },
+    {
+      "Product": "Cerdik Phone 7",
+      "ProductId": "HT-1256",
+      "SupplierName":"Technocom",
+      "Dimensions": "9 x 15 x 1.5 cm",
+      "Weight": "0.75 KG",
+      "Price": "549.00 EUR"
+    },
+    {
+      "Product": "Comfort Easy",
+      "ProductId": "HT-1022",
+      "SupplierName":"Speaker Experts",
+      "Dimensions": "84 x 1.5 x 14 cm",
+      "Weight": "0.2 KG",
+      "Price": "1,679.00 EUR"
+    },
+    {
+      "Product": "Comfort Senior",
+      "ProductId": "HT-1023",
+      "SupplierName":"Speaker Experts",
+      "Dimensions": "80 x 1.6 x 13 cm",
+      "Weight": "0.8 KG",
+      "Price": "512.00 EUR"
+    }
+]
+}
+  

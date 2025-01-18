@@ -51,6 +51,10 @@ modules:
       - project2.zip
       name: project2
       target-path: resources/
+    - artifacts:
+      - factoryfunction.zip
+      name: factoryfunction
+      target-path: resources/
 - name: practicehelloworld
   type: html5
   path: app/helloworld
@@ -84,6 +88,16 @@ modules:
 - name: project2
   type: html5
   path: app/project2
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: factoryfunction
+  type: html5
+  path: app/factoryfunction
   build-parameters:
     build-result: dist
     builder: custom

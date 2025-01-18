@@ -27,7 +27,8 @@
     "watch-crudoperations": "cds watch --open crudoperations/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-resume": "cds watch --open resume/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-project2": "cds watch --open project2/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-project2": "cds watch --open project2/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-factoryfunction": "cds watch --open factoryfunction/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "sql": {
