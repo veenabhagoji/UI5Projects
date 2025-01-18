@@ -1,0 +1,9 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page1" title="{i18n>MasterPage}">
+        <List id="productOrderList" items="{Production>/productOrders}" headerText="Products">
+            <StandardListItem id="idList" title="{Production>materialDescription}" description="{Production>orderId}" info="{Production>info}" infoState="{Production>highlight}" infoStateInverted="true" iconDensityAware="false" iconInset="true" />
+        </List>
+    </Page>
+</mvc:View>

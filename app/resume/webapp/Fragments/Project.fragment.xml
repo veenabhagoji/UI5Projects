@@ -1,0 +1,42 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"
+  	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+    
+    <VBox class="sapUiResponsiveMargin">
+        <!-- Wipro Project -->
+        <Panel width="auto" accessibleRole="Region" expandable="true">
+            <headerToolbar>
+                <OverflowToolbar>
+                    <Title text="Wipro | May 2022 to Present" />
+                </OverflowToolbar>
+            </headerToolbar>
+            <content>
+                <Text text="Project Type: Product Development; Role: Developer; Agile Methodology;" class="boldText" />
+                 <VBox>
+                <Text text="Client: Intel; Role: UI5 Developer; Agile Methodology," class="boldText" />
+                 </VBox>
+                <Text text="Developed a Warehouse Management System to track and manage inventory, monitor stock levels, and streamline warehouse operations. The application included features for inventory search and stock updates." />
+                <Text text="Acted as an individual contributor in the development of floorplans and front-end applications. Provided demos to clients to showcase the application functionalities." />
+            </content>
+        </Panel>
+
+        <!-- NSW Transport Project -->
+        <Panel width="auto" expandable="true">
+            <headerToolbar>
+                <OverflowToolbar>
+                    <Title text="NSW Transport Project" />
+                   
+                </OverflowToolbar>
+            </headerToolbar>
+            <content>
+                <Text text="Project Type: Product Development; Role: Developer; Agile Methodology;" class="boldText"/>
+                <VBox >
+                <Text text="Client: NSW Transport; Role: UI5 Developer; Agile Methodology," class="boldText" />
+                </VBox>
+                <Text text="Developed Custom Fiori applications to streamline various functional processes, including Down Payment, Pre Payment, Accelerated Payment, and Retention. These applications were integrated into the My Inbox app to facilitate a seamless approval process." />
+                <Text text="Acted as an individual contributor in the development of floorplans and front-end applications. Provided demos to clients to showcase the application functionalities." />
+            </content>
+        </Panel>
+    </VBox>
+
+</core:FragmentDefinition>

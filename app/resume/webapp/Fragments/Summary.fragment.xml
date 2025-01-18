@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox id="summaryId">
+        <!-- Example Fragment Content -->
+        <Text text="Experienced SAP UI5 Developer with 2.7 years 
+of expertise in JavaScript, Fiori, UI5. Currently employed as a Project Engineer in Wipro Bangalore. 
+Proven ability to design, develop, and implement innovative solutions in the SAP ecosystem. Seeking a 
+challenging position in Fiori UI5 BTP CAPM to utilize my technical skills to drive business success and 
+contribute to the organization's growth."/>
+        
+    </VBox>
+</core:FragmentDefinition>

@@ -1,0 +1,100 @@
+<mvc:View controllerName="project2.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns:u="sap.ui.unified"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Toolbar>
+            <DatePicker id="DP178" width="200px" placeholder="Enter Date" 
+             value="{path: 'dateModel>/date1', formatter: '.formatter.formatDate'}"
+              displayFormat="MM/dd/yyyy"
+             valueFormat="yyyy-MM-dd"
+             change="formatDate"
+            
+             />
+            <DatePicker id="DP179" width="200px" placeholder="Enter Date" 
+             value="{path: 'dateModel>/date2', formatter: '.formatter.formatDate'}" 
+              displayFormat="dd.MM.yyyy"
+              valueFormat="yyyy-MM-dd"
+               change="formatDate"
+             />
+
+            <DatePicker id="DP180" width="200px" placeholder="Enter Date" 
+             value="{path: 'dateModel>/date1', formatter: '.formatter.formatDate'}" 
+              displayFormat="yyyy/MM/dd"
+              valueFormat="yyyy-MM-dd"
+             change="formatDate"
+             />
+            
+            <ComboBox items="{
+      
+        path: 'listtypes>/ListTypes'
+        		
+    	
+    }" selectionChange="onSelectedKey">
+                <core:Item key="{listtypes>key}" text="{listtypes>name}" />
+            </ComboBox>
+
+            <ToolbarSpacer />
+            <Button text="+" press="addRow"></Button>
+            <Button text="-" press="deleteRow"></Button>
+            <Button text="Button 1" type="{path: 'btndata>/ButtonData/0/data1', formatter: '.formatter.buttonType'}" />
+            <Button text="Button 2" type="{path: 'btndata>/ButtonData/0/data2', formatter: '.formatter.buttonType'}" />
+            <Button text="Button 3" type="{path: 'btndata>/ButtonData/0/data3', formatter: '.formatter.buttonType'}" />
+            <Button text="Button 4" type="{path: 'btndata>/ButtonData/0/data4', formatter: '.formatter.buttonType'}" />
+           
+
+        </Toolbar>
+        <!-- List to display sentences -->
+        <VBox class="sapUiLargeMarginBottom sapUiLargeMarginTop">
+            <Text text="Normal Text" styleClass="Title" />
+            <List  id="idList" 
+             items="{
+        path: 'normaltext>/regularSentences',
+        factory: '.createListItem'
+
+    }">
+            
+            </List>
+        </VBox>
+        <VBox>
+            <Text text="HTML Text" styleClass="Title" />
+            
+            <FormattedText htmlText="{htmltext>/htmlAndJsonSentences/0}" enableRichText="true" />
+            <FormattedText htmlText="{htmltext>/htmlAndJsonSentences/1}" enableRichText="true" />
+            <FormattedText htmlText="{htmltext>/htmlAndJsonSentences/2}" enableRichText="true" />
+            <FormattedText htmlText="{htmltext>/htmlAndJsonSentences/3}" enableRichText="true" />
+            <FormattedText htmlText="{htmltext>/htmlAndJsonSentences/4}" enableRichText="true" />
+        </VBox>
+        <VBox  id="idInpt"></VBox>
+
+
+       <Table
+    id="myTable"
+    items="{
+        path: 'tableModel>/rows'
+    }"
+    inset="false"
+    mode="SingleSelectMaster">
+    <columns>
+        <Column>
+            <Text text="Column 1" />
+        </Column>
+        <Column>
+            <Text text="Column 2" />
+        </Column>
+    </columns>
+    <items>
+        <ColumnListItem>
+            <cells>
+                <Input value="{tableModel>column1}" />
+                <Input value="{tableModel>column2}" />
+            </cells>
+        </ColumnListItem>
+    </items>
+</Table>
+
+
+    </Page>
+</mvc:View>

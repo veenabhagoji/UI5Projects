@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "practice.helloworld",
+    "id": "project1",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,18 +13,17 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.16.1",
-      "toolsId": "96d9de1d-7246-498d-9e1c-c1436ba4cbda"
+      "toolsId": "0b3524cd-63ef-47b1-9cc8-b9cff1059609"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/admin/",
+        "uri": "/browse/",
         "type": "OData",
         "settings": {
           "annotations": [],
           "odataVersion": "4.0"
         }
       }
-     
     }
   },
   "sap.ui": {
@@ -60,7 +59,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "practice.helloworld.i18n.i18n"
+          "bundleName": "project1.i18n.i18n"
         }
       },
       "": {
@@ -72,7 +71,6 @@
           "earlyRequests": true
         }
       }
-    
     },
     "resources": {
       "css": [
@@ -89,28 +87,48 @@
         "transition": "slide",
         "type": "View",
         "viewType": "XML",
-        "path": "practice.helloworld.view"
+        "path": "project1.view"
       },
       "routes": [
         {
-          "name": "RouteView1",
-          "pattern": ":?query:",
-          "target": [
-            "TargetView1"
-          ]
+          "name": "View1",
+          "pattern": "",
+          "target": ["View1", "View2"]
+            
+          
+        },
+
+        {
+          "name": "View2",
+          "pattern": "/Production/{id}",
+          "target": ["View1", "View2"]
+            
+          
         }
       ],
       "targets": {
-        "TargetView1": {
-          "id": "View1",
-          "name": "View1"
-        }
+        "View1": {
+          "id": "Page1",
+          "name": "View1",
+          "viewLevel":1,
+          "viewType": "XML",
+          "controlAggregation": "masterPages"
+        },
+      
+      "View2": {
+        "id": "Page2",
+        "name": "View2",
+        "viewLevel":2,
+        "viewType": "XML",
+        "controlAggregation": "detailPages"
       }
+    }
     },
     "rootView": {
-      "viewName": "practice.helloworld.view.App",
+      "viewName": "project1.view.App",
       "type": "XML",
       "id": "App"
     }
   }
+  
 }

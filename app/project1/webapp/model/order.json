@@ -1,0 +1,56 @@
+{
+    "productOrders": [
+      {
+        "orderId": "PO100001",
+        "materialNumber": "MAT-1001",
+        "materialDescription": "Steel Rod",
+        "quantity": 500,
+        "unit": "KG",
+        "orderDate": "2025-01-10",
+        "deliveryDate": "2025-01-20",
+        "supplier": "Supplier A",
+        "purchaseOrderValue": 15000.00,
+        "status": "Open",
+        "paymentStatus": "Pending",
+        "deliveryStatus": "Not Delivered",
+        "warehouse": "WH01",
+        "highlight": "Warning",
+		"info": "Warning"
+      },
+      {
+        "orderId": "PO100002",
+        "materialNumber": "MAT-1002",
+        "materialDescription": "Copper Wire",
+        "quantity": 300,
+        "unit": "MTR",
+        "orderDate": "2025-01-12",
+        "deliveryDate": "2025-01-22",
+        "supplier": "Supplier B",
+        "purchaseOrderValue": 9000.00,
+        "status": "Shipped",
+        "paymentStatus": "Paid",
+        "deliveryStatus": "Partially Delivered",
+        "warehouse": "WH02",
+        "highlight": "Error",
+		"info": "Incomplete"
+      },
+      {
+        "orderId": "PO100003",
+        "materialNumber": "MAT-1003",
+        "materialDescription": "PVC Pipes",
+        "quantity": 1000,
+        "unit": "PCS",
+        "orderDate": "2025-01-15",
+        "deliveryDate": "2025-01-25",
+        "supplier": "Supplier C",
+        "purchaseOrderValue": 5000.00,
+        "status": "Delivered",
+        "paymentStatus": "Paid",
+        "deliveryStatus": "Fully Delivered",
+        "warehouse": "WH03",
+        "highlight": "Success",
+		"info": "Completed"
+      }
+    ]
+  }
+  

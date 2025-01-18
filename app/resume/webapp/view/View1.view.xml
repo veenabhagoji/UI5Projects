@@ -1,0 +1,173 @@
+<mvc:View controllerName="resume.controller.View1"
+     xmlns:mvc="sap.ui.core.mvc"
+     xmlns="sap.uxap"
+     xmlns:layout="sap.ui.layout"
+     xmlns:m="sap.m"
+     xmlns:core="sap.ui.core"
+     height="100%">
+
+    <m:Page id="page" title="{i18n>title}">
+
+        <ObjectPageLayout id="ObjectPageLayout"
+                          enableLazyLoading="true"
+                          beforeNavigate="onBeforeNavigate"
+                          useIconTabBar="true"
+                          showTitleInHeaderContent="true"
+                          upperCaseAnchorBar="false">
+
+                          
+            <headerTitle>
+                <ObjectPageDynamicHeaderTitle>
+                    <expandedHeading>
+                        <m:Title text="Veena Ravikant Bhagoji" wrapping="true"/>
+                    </expandedHeading>
+
+                    <snappedHeading>
+                        <m:FlexBox fitContainer="true" alignItems="Center">
+                            <m:Avatar src="./images/profile.png" class="sapUiTinyMarginEnd" height="50px" width="50px" />
+                            <m:Title text="Veena Ravikant Bhagoji" wrapping="true"/>
+                        </m:FlexBox>
+                    </snappedHeading>
+
+                  
+                    <snappedContent>
+                        <m:Text text="SAP UI5 Developer"/>
+                    </snappedContent>
+
+                    <snappedTitleOnMobile>
+                        <m:Title text="SAP UI5 Developer"/>
+                    </snappedTitleOnMobile>
+
+                    <actions>
+                        <m:Button text="Edit" type="Emphasized" press="onEdit"/>
+                        <m:Button type="Transparent" text="Delete"/>
+                        <m:Button type="Transparent" text="Copy"/>
+                        <m:OverflowToolbarButton icon="sap-icon://action" type="Transparent" text="Share" tooltip="action"/>
+                    </actions>
+                </ObjectPageDynamicHeaderTitle>
+            </headerTitle>
+
+            <headerContent>
+                <m:FlexBox wrap="Wrap" fitContainer="true">
+                    <m:Avatar class="sapUiSmallMarginEnd" src="./test-resources/sap/uxap/images/imageID_275314.png" displaySize="L"/>
+
+                   
+<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+    <!-- <m:VBox> -->
+        <!-- Name -->
+      <m:Text text="Veena Ravikant Bhagoji" class="sapUiTinyMarginBottom"/>
+
+        
+        <!-- Job title -->
+        <m:Text text="SAP UI5 Developer" class="sapUiTinyMarginBottom"/>
+        
+        <!-- Phone number -->
+        <m:Link text="+91 7090369268" class="sapUiTinyMarginBottom"/>
+        
+        <m:Link text="veenabhagoji14@gmail.com" />
+
+
+    <!-- </m:VBox> -->
+</layout:VerticalLayout>
+
+
+<layout:VerticalLayout class="sapUiMediumMarginBegin">
+    <m:Text text="Languages"  />
+
+    <!-- Kannada Language Rating -->
+    <m:HBox class="customHBox" alignItems="Center">
+        <m:Text text="Kannada" class="customText"  width="60px"/>
+        <m:RatingIndicator value="5" maxValue="5" enabled="true" iconSize="1.5rem" class="customRatingIndicator" />
+    </m:HBox>
+
+     <m:HBox class="customHBox" alignItems="Center">
+        <m:Text text="English" class="customText" width="60px" />
+        <m:RatingIndicator value="5" maxValue="5" enabled="true" iconSize="1.5rem" class="customRatingIndicator" />
+    </m:HBox>
+</layout:VerticalLayout>
+
+
+<layout:VerticalLayout class="sapUiLargeMarginBegin">
+    <!-- <m:VBox> -->
+        
+      <m:Text text="Strength" class="sapUiTinyMarginBottom"/>
+
+        
+        <!-- Job title -->
+        <m:Text text="Adoptive to any programming language" class="sapUiTinyMarginBottom"/>
+        
+        
+        <m:Text text="Team Player" class="sapUiTinyMarginBottom"/>
+
+         <m:Text text="Hard-working and target-oriented" class="sapUiTinyMarginBottom"/>
+
+           <m:Text text=" easily adapting to any technologies" />
+
+
+    <!-- </m:VBox> -->
+</layout:VerticalLayout>           
+                    
+                </m:FlexBox>
+            </headerContent>
+
+            <sections>
+				<ObjectPageSection titleUppercase="false" id="idSummary" title="Summary">
+			<subSections>
+				<ObjectPageSubSection id="goalsSS1" titleUppercase="false">
+					<blocks>
+						<!-- <goals:GoalsBlock id="summaryBlock"/> -->
+                        <core:Fragment fragmentName="resume.Fragments.Summary" type="XML" />
+					</blocks>
+				</ObjectPageSubSection>
+			</subSections>
+			</ObjectPageSection>
+
+            <ObjectPageSection titleUppercase="false" id="idTechSkill" title="Technical Skills">
+			<subSections>
+				<ObjectPageSubSection titleUppercase="false">
+					<blocks>
+						<!-- <goals:GoalsBlock id="summaryBlock"/> -->
+                        <core:Fragment fragmentName="resume.Fragments.TechSkills" type="XML" />
+					</blocks>
+				</ObjectPageSubSection>
+			</subSections>
+			</ObjectPageSection>
+
+              <ObjectPageSection titleUppercase="false" id="idProjectDetail" title="Project">
+			<subSections>
+				<ObjectPageSubSection titleUppercase="false">
+					<blocks>
+						<!-- <goals:GoalsBlock id="summaryBlock"/> -->
+                        <core:Fragment fragmentName="resume.Fragments.Project" type="XML" />
+					</blocks>
+				</ObjectPageSubSection>
+			</subSections>
+			</ObjectPageSection>
+
+             <ObjectPageSection titleUppercase="false" id="idEducation" title="Education Details">
+			<subSections>
+				<ObjectPageSubSection titleUppercase="false">
+					<blocks>
+						<!-- <goals:GoalsBlock id="summaryBlock"/> -->
+                        <core:Fragment fragmentName="resume.Fragments.Education" type="XML" />
+					</blocks>
+				</ObjectPageSubSection>
+			</subSections>
+			</ObjectPageSection>
+
+             <ObjectPageSection titleUppercase="false" id="idAchive" title="Achievements">
+			<subSections>
+				<ObjectPageSubSection titleUppercase="false">
+					<blocks>
+						<!-- <goals:GoalsBlock id="summaryBlock"/> -->
+                        <core:Fragment fragmentName="resume.Fragments.Achievements" type="XML" />
+					</blocks>
+				</ObjectPageSubSection>
+			</subSections>
+			</ObjectPageSection>
+
+
+            </sections>
+        </ObjectPageLayout>
+    </m:Page>
+</mvc:View>

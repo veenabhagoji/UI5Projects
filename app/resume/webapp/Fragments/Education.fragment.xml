@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox id="educationId">
+        <!-- Example Fragment Content -->
+        <Text text="Bachelor’s degree in Computer Science and Engineering from KLE CET Chikkodi Belagavi, Karnataka, VTU (2016-2020)."/>
+        
+    </VBox>
+</core:FragmentDefinition>

@@ -1,0 +1,37 @@
+.customMarginBottom {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+/* Custom CSS for RatingIndicator size */
+/* Custom CSS to reduce space and scale RatingIndicator */
+.smallSpaceHBox {
+    margin-bottom: 0.5rem; /* Reduces space between HBox elements */
+}
+
+.smallRating {
+    transform: scale(0.8); /* Scale down the RatingIndicator */
+    transform-origin: center; /* Ensures scaling is centered */
+    margin-left: 0.25rem; /* Adjust the space between Text and RatingIndicator */
+}
+/* Ensure that this CSS is added in the global stylesheet or custom CSS file */
+
+.customMargin {
+    margin-bottom: 0.5rem; /* Adjust this value to reduce space */
+}
+
+.customHBox {
+    display: flex;
+    align-items: center;
+}
+
+.customText {
+    vertical-align: middle;
+    margin-right: 7px; 
+    /* Adjust the spacing between text and rating */
+}
+
+.customRatingIndicator {
+    vertical-align: middle;
+}
+.boldText {
+    font-weight: bold;
+}

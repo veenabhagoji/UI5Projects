@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <List id="idTechSkills" mode="None">
+        <!-- Bullet point items -->
+        <StandardListItem title="JavaScript, SAPUI5 Framework, XML, JQUERY, CSS, HTML JSON, Core Java and React."/>
+        <StandardListItem title="Development of Standalone Freestyle SAPUI5 Applications and extending the standard Fiori applications."/>
+        <StandardListItem title="Cloud connector Configurations, UI Theme designer, Fiori Launchpad, PFCG, Spaces, Groups and Tile Creation."/>
+        <StandardListItem title="FIORI Elements."/>
+        <StandardListItem title="Good Hands-on Experience in CLOUD WEBIDE, VSCODE, BAS, Eclipse."/>
+        <StandardListItem title="GIT version control."/>
+        <StandardListItem title="Debugging, troubleshooting, and resolving the issues in the front-end applications."/>
+        <StandardListItem title="SAP Gateway, SOAP, REST API, and POSTMAN TOOL."/>
+        <StandardListItem title="Design documents, Technical Specification documents, Process flow documents, and Test documents using Microsoft Word, Microsoft Excel, and Microsoft Vision."/>
+    </List>
+</core:FragmentDefinition>

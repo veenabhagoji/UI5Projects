@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "practice.helloworld",
+    "id": "project2",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,18 +13,17 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.16.1",
-      "toolsId": "96d9de1d-7246-498d-9e1c-c1436ba4cbda"
+      "toolsId": "9b7c8064-3a05-4071-a401-49243fea6310"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/admin/",
+        "uri": "/browse/",
         "type": "OData",
         "settings": {
           "annotations": [],
           "odataVersion": "4.0"
         }
       }
-     
     }
   },
   "sap.ui": {
@@ -60,7 +59,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "practice.helloworld.i18n.i18n"
+          "bundleName": "project2.i18n.i18n"
         }
       },
       "": {
@@ -72,7 +71,6 @@
           "earlyRequests": true
         }
       }
-    
     },
     "resources": {
       "css": [
@@ -89,7 +87,7 @@
         "transition": "slide",
         "type": "View",
         "viewType": "XML",
-        "path": "practice.helloworld.view"
+        "path": "project2.view"
       },
       "routes": [
         {
@@ -108,7 +106,7 @@
       }
     },
     "rootView": {
-      "viewName": "practice.helloworld.view.App",
+      "viewName": "project2.view.App",
       "type": "XML",
       "id": "App"
     }

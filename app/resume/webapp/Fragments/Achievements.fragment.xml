@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox id="achievementId">
+        <!-- Example Fragment Content -->
+        <Text text="Certification in AZ-900 Microsoft Azure Fundamentals."/>
+        
+    </VBox>
+</core:FragmentDefinition>

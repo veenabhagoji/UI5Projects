@@ -1,0 +1,20 @@
+{
+    "ListTypes": [
+      {"key": "actionListItem", "name": "Action List Item"},
+      {"key": "column", "name": "Column"},
+      {"key": "columnListItem", "name": "Column List Item"},
+      {"key": "customListItem", "name": "Custom List Item"},
+      {"key": "customTreeItem", "name": "Custom Tree Item"},
+      {"key": "displayListItem", "name": "Display List Item"},
+      {"key": "feedListItem", "name": "Feed List Item"},
+      {"key": "gridList", "name": "Grid List"},
+      {"key": "inputListItem", "name": "Input List Item"},
+      {"key": "list", "name": "List"},
+      {"key": "notificationListGroup", "name": "Notification List Group"},
+      {"key": "notificationListItem", "name": "Notification List Item"},
+      {"key": "objectListItem", "name": "Object List Item"},
+      {"key": "selectList", "name": "SelectList"},
+      {"key": "standardListItem", "name": "Standard List Item"}
+    ]
+  }
+  
